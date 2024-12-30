@@ -15,5 +15,6 @@ def fibonacci_recursive(n):
 
 # Test both functions for n = 7
 n = 7
+print("This is SonarQube Task 2)
 print("Iterative result for Fibonacci(7):", fibonacci_iterative(n))
 print("Recursive result for Fibonacci(7):", fibonacci_recursive(n))
