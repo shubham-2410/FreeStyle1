@@ -1,4 +1,3 @@
-# Iterative approach
 def fibonacci_iterative(n):
     if n <= 1:
         return n
@@ -7,13 +6,11 @@ def fibonacci_iterative(n):
         a, b = b, a + b
     return b
 
-# Recursive approach
 def fibonacci_recursive(n):
     if n <= 1:
         return n
     return fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)
 
-# Test both functions for n = 7
 n = 7
 print("This is SonarQube Task 2 ")
 print("Iterative result for Fibonacci(7):", fibonacci_iterative(n))
